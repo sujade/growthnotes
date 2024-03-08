@@ -15,15 +15,17 @@ function Footer() {
                     <p className="footer-text">GrowthNotes<br/> Lorem Ipsum Street<br/> 123456
                         Dolor</p>
                 </Col>
-                <Col md={4} >
-                    <p className="fw-bold footer-text">Links:</p>
-                    <p className="footer-text">Telephone: 123-456789<br/> notareal@email.com</p>
-                    <p className="footer-text">GrowthNotes<br/> Lorem Ipsum Street<br/> 123456
-                        Dolor</p>
-                </Col>
-                <Col md={4}>
-                    <p className="fw-bold footer-text">Follow Us!</p>
-                    <div>
+            <Col md={4}>
+                <p className="fw-bold footer-text">Links:</p>
+                <span><a href="url">Home</a></span><br/>
+                <span><a href="url">My Notes</a></span><br/>
+                <span><a href="url">About</a></span><br/>
+                <span><a href="url">F.A.Q.</a></span>
+
+            </Col>
+            <Col md={4}>
+                <p className="fw-bold footer-text">Follow Us!</p>
+                <div>
                         <FaLinkedin size={50}/>
                         <FaInstagramSquare size={50}/>
                         <FaFacebookSquare size={50}/>

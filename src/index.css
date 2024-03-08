@@ -6,6 +6,17 @@ body {
     width: 12em;
 }
 
-#navbar {
-    background-color: #FDFFFC;
+#index {
+    background-color: #fbfaf9;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover {
+    color: black !important;
+    text-decoration: none !important;
+    cursor:pointer;
 }

@@ -3,11 +3,11 @@ import Footer from "../components/Footer.tsx";
 import Main from "../components/Main.tsx";
 const Index = () => {
     return (
-        <>
+        <div id="index">
             <Navigation/>
             <Main/>
             <Footer/>
-        </>
+        </div>
     );
 };
 
