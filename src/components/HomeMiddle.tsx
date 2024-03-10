@@ -9,7 +9,9 @@ const HomeMiddle = () => {
                                  alt='bicycle'></img></Col>
                 <Col md={2}></Col>
                 <Col md={5}><h2>How do we tailor <br/>your note-taking categories?</h2>
-                    <ul className='mt-5 pt-3'>
+                    <h5 className=' mt-3 text-muted'>We customize and personalize <br/>your note-taking
+                    field based on your choices!</h5>
+                    <ul className='mt-3'>
                         <li><h4>General Notes</h4></li>
                         <li><h4>Observations</h4></li>
                         <li><h4>Patterns</h4></li>
