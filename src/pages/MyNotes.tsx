@@ -1,13 +1,13 @@
 import Navigation from "../components/Navigation.tsx";
 import NoteWelcome from "../components/NoteWelcome.tsx";
-import Footer from "../components/Footer.tsx";
+import LoggedFooter from "../components/LoggedFooter.tsx";
 
 const MyNotes = () => {
     return (
         <div>
            <Navigation/>
             <NoteWelcome/>
-            <Footer/>
+            <LoggedFooter/>
         </div>
     );
 };

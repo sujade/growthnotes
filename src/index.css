@@ -20,3 +20,12 @@ a:hover {
     text-decoration: none !important;
     cursor:pointer;
 }
+
+#bigtext {
+    font-size: 45px;
+
+}
+
+#andmore{
+    list-style-type: none;
+}

@@ -10,7 +10,7 @@ const LoginForm = ({children}: Props) => {
     return (
         <div className="d-flex align-items-center text-center mb-5 mt-5 pt-5 pb-5">
             <Container>
-                <Card className="border border-3 border-black">
+                <Card id='index' className="border border-3 border-black">
                     <Card.Body>
                         <img className="mt-5 mb-3" id="logo" src={Logo} alt="logo"/>
                         <Card.Title className=" fs-1 fw-bolder mb-2">Welcome to GrowthNotes!</Card.Title>

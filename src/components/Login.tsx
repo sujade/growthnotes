@@ -56,7 +56,7 @@ function Login() {
                     <button onClick={logOut}>Log out</button>
                 </div>
             ) : (
-                <Button className="fw-bold" variant='light' size="lg" onClick={() => login()}>Sign in with Google <FcGoogle/></Button>
+                <Button className="fw-bold" variant='outline-success' size="lg" onClick={() => login()}>Sign in with Google <FcGoogle/></Button>
             )}
         </div>
     );

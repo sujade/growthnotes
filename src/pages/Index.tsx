@@ -1,12 +1,12 @@
 import Navigation from "../components/Navigation.tsx";
-import Footer from "../components/Footer.tsx";
 import Main from "../components/Main.tsx";
+import LoggedFooter from "../components/LoggedFooter.tsx";
 const Index = () => {
     return (
         <div id="index">
             <Navigation/>
             <Main/>
-            <Footer/>
+            <LoggedFooter/>
         </div>
     );
 };
