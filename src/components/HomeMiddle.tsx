@@ -3,7 +3,7 @@ import Bike from '../images/bike.jpeg'
 
 const HomeMiddle = () => {
     return (
-        <div className='d-flex align-content-center justify-content-evenly pt-5 pb-3 mb-5'>
+        <div className='d-flex align-content-center justify-content-evenly pt-5 pb-5 mb-5'>
             <Row>
                 <Col md={5}><img className='border border-3 border-black rounded-3' src={Bike}
                                  alt='bicycle'></img></Col>

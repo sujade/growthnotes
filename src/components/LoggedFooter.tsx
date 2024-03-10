@@ -18,7 +18,6 @@ function Footer() {
                 <Col md={4}>
                     <p className="fw-bold footer-text">Links:</p>
                     <span><a href="url">Home</a></span><br/>
-                    <span><a href="url">My Notes</a></span><br/>
                     <span><a href="url">About</a></span><br/>
                     <span><a href="url">F.A.Q.</a></span>
 
