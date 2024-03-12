@@ -1,13 +1,10 @@
 body {
     font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #fbfaf9;
 }
 
 #logo {
     width: 12em;
-}
-
-#index {
-    background-color: #fbfaf9;
 }
 
 a {
