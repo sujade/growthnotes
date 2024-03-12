@@ -4,6 +4,7 @@ import {FaInstagramSquare} from "react-icons/fa";
 import {FaGithubSquare} from "react-icons/fa";
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
+import {SiKofi} from "react-icons/si";
 
 function Footer() {
     return (
@@ -18,17 +19,19 @@ function Footer() {
                 <Col md={4}>
                     <p className="fw-bold footer-text">Links:</p>
                     <span><a href="url">Home</a></span><br/>
-                    <span><a href="url">About</a></span><br/>
                     <span><a href="url">F.A.Q.</a></span>
 
                 </Col>
                 <Col md={4}>
                     <p className="fw-bold footer-text">Follow Us!</p>
-                    <div>
+                    <div className='mb-3'>
                         <FaLinkedin size={50}/>
                         <FaInstagramSquare size={50}/>
                         <FaFacebookSquare size={50}/>
                         <FaGithubSquare size={50}/>
+                    </div>
+                    <p className="fw-bold footer-text">Support Us!</p>
+                    <div><SiKofi size={50}/>
                     </div>
                 </Col>
             </Row>
