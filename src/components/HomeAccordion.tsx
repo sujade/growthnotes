@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 
 function HomeAccordion() {
     return (
-        <Container className='mb-5'>
+        <Container id="faq" className='mb-5'>
             <div className='text-center mb-3'>
                 <h2>Frequently Asked Questions</h2>
             </div>

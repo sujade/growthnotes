@@ -3,7 +3,7 @@ import Main from "../components/Main.tsx";
 import LoggedFooter from "../components/LoggedFooter.tsx";
 const Index = () => {
     return (
-        <div id="index">
+        <div>
             <Navigation/>
             <Main/>
             <LoggedFooter/>

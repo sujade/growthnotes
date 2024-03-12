@@ -10,19 +10,17 @@ function Footer() {
     return (
         <Container>
             <Row>
-                <Col md={4}>
+                <Col md={2}></Col>
+                <Col md={3}>
                     <p className="fw-bold footer-text">Reach Us:</p>
                     <p className="footer-text">Telephone: 123-456789<br/> notareal@email.com</p>
                     <p className="footer-text">GrowthNotes<br/> Lorem Ipsum Street<br/> 123456
                         Dolor</p>
                 </Col>
-                <Col md={4}>
-                    <p className="fw-bold footer-text">Links:</p>
-                    <span><a href="url">Home</a></span><br/>
-                    <span><a href="url">F.A.Q.</a></span>
+                <Col md={2}>
 
                 </Col>
-                <Col md={4}>
+                <Col md={3}>
                     <p className="fw-bold footer-text">Follow Us!</p>
                     <div className='mb-3'>
                         <FaLinkedin size={50}/>
@@ -34,6 +32,7 @@ function Footer() {
                     <div><SiKofi size={50}/>
                     </div>
                 </Col>
+                <Col md={2}></Col>
             </Row>
         </Container>
     )
