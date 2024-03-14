@@ -13,7 +13,7 @@ const MyNotes = () => {
     };
 
     const triggerError = () => {
-        alert("Something went wrong!")
+        alert("Feature coming soon!")
     }
 
     return (
