@@ -7,7 +7,7 @@ const HomeFeatures = () => {
             <Row>
                 <Col className="d-flex justify-content-center" md={6}><img className='border border-3 border-black rounded-3' src={Bike}
                                  alt='bicycle'></img></Col>
-                <Col md={6}><h2 className="mt-5 mt-md-0">How do we tailor <br/>your note-taking categories?</h2>
+                <Col className='text-center text-md-start' md={6}><h2 className="mt-5 mt-md-0">How do we tailor <br/>your note-taking categories?</h2>
                     <h5 className='mt-3 text-muted'>We customize and personalize <br/>your note-taking
                     field based on your choices!</h5>
                     <ul className='mt-3'>
