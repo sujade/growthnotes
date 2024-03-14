@@ -1,10 +1,10 @@
-import LoggedFooter from "../components/LoggedFooter.tsx";
+import LoggedFooter from "../components/layout/Footer.tsx";
 import Container from "react-bootstrap/Container";
-import NavigationNotes from "../components/NavigationNotes.tsx";
+import NavigationNotes from "../components/notes/NavigationMyNotes.tsx";
 import {Col, Row} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {useState} from "react";
-import NoteBox from "../components/NoteBox.tsx";
+import NoteBox from "../components/notes/NoteBox.tsx";
 const MyNotes = () => {
     const [toggle, setToggle] = useState(false);
 

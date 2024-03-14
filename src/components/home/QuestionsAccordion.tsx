@@ -2,7 +2,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import {Col, Row} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 
-function HomeAccordion() {
+function QuestionsAccordion() {
     return (
         <Container id="faq" className='mb-5'>
             <div className='text-center mb-3'>
@@ -45,7 +45,7 @@ function HomeAccordion() {
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="4">
-                    <Accordion.Header><span className='fw-bold'>What if I wanted to donate for more features?</span></Accordion.Header>
+                    <Accordion.Header><span className='fw-bold'>Can I donate for more features?</span></Accordion.Header>
                     <Accordion.Body>
                         You are welcome to do so! Find our Ko-Fi icon at the bottom of the page and click on the icon!
                     </Accordion.Body>
@@ -58,4 +58,4 @@ function HomeAccordion() {
     );
 }
 
-export default HomeAccordion;
+export default QuestionsAccordion;

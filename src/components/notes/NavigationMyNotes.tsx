@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import SVG from "../images/logo.png"
+import SVG from "../../images/logo.png"
 import {Col, Row} from "react-bootstrap";
-import profile from "./Login.tsx";
-import {generateQuote} from "../functions/generateQuote.tsx";
+import profile from "../Login.tsx";
+import {generateQuote} from "../../functions/generateQuote.tsx";
 import Button from "react-bootstrap/Button";
 
 function Navigation() {

@@ -5,7 +5,7 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import Index from "./pages/Index.tsx";
+import Home from "./pages/Home.tsx";
 import MyNotes from "./pages/MyNotes.tsx";
 import '@fontsource/atkinson-hyperlegible';
 import './index.css'
@@ -13,7 +13,7 @@ import './index.css'
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Index/>
+        element: <Home/>
     },
     {
         path: "mynotes",

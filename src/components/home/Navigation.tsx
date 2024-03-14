@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import SVG from "../images/logo.png"
+import SVG from "../../images/logo.png"
 
 function Navigation() {
     return (

@@ -1,4 +1,4 @@
-import Login from "./Login.tsx";
+import Login from "../Login.tsx";
 import {GoogleOAuthProvider} from "@react-oauth/google";
 
 const HomeLogin = () => {

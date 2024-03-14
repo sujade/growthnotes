@@ -1,7 +1,7 @@
 import {Col, Row} from "react-bootstrap";
-import Bike from '../images/bike.jpeg'
+import Bike from '../../images/bike.jpeg'
 
-const HomeMiddle = () => {
+const HomeFeatures = () => {
     return (
         <div className='d-flex align-content-center justify-content-evenly pt-5 pb-5 mb-5'>
             <Row>
@@ -24,4 +24,4 @@ const HomeMiddle = () => {
     );
 };
 
-export default HomeMiddle;
+export default HomeFeatures;

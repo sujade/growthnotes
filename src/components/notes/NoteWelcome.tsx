@@ -1,5 +1,5 @@
-import profile from "./Login.tsx";
-import {generateQuote} from "../functions/generateQuote.tsx";
+import profile from "../Login.tsx";
+import {generateQuote} from "../../functions/generateQuote.tsx";
 import {Col, Row} from "react-bootstrap";
 
 const NoteWelcome = () => {

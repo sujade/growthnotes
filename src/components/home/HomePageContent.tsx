@@ -1,18 +1,18 @@
 import HomeCards from "./HomeCards.tsx";
 import HomeHeader from "./HomeHeader.tsx";
-import HomeMiddle from "./HomeMiddle.tsx";
-import HomeAccordion from "./HomeAccordion.tsx";
+import HomeFeatures from "./HomeFeatures.tsx";
+import QuestionsAccordion from "./QuestionsAccordion.tsx";
 import HomeLogin from "./HomeLogin.tsx";
 
-const Main = () => {
+const HomePageContent = () => {
     return (
         <>
             <HomeHeader/>
             <HomeCards/>
-            <HomeMiddle/>
+            <HomeFeatures/>
             <HomeLogin/>
-            <HomeAccordion/>
+            <QuestionsAccordion/>
         </>
     );
 };
-export default Main;
+export default HomePageContent;
