@@ -15,7 +15,7 @@ const HomeFeatures = () => {
                         <li><h4>Observations</h4></li>
                         <li><h4>Patterns</h4></li>
                         <li><h4>Homeworks</h4></li>
-                        <li id='andmore'><h4>...and more!</h4></li>
+                        <li><h4>...and more!</h4></li>
                     </ul>
                 </Col>
             </Row>
